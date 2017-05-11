@@ -1,0 +1,287 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family:'Roboto', sans-serif;
+}
+.background{
+	background: linear-gradient(rgb(255,255,255),rgb(226,228,232),rgb(255,255,255));
+}
+.container{
+	width: 60%;
+	margin: auto;
+}
+.navbar{
+	width: 100%;
+}
+.nav_container{
+	width: 60%;
+	margin: auto;
+}
+.page_header{
+	padding-top: 20px;
+	display: block;
+	width: 100%;
+	margin-bottom: -10px;
+}
+.page_logo{
+	width: 150px;
+	margin-top: -10px;
+}
+.page_logo img{
+	width: 100%;
+}
+.navbar{
+	margin-top: 5px;
+	float: left;
+}
+.nav_list li{
+	display: inline-block;
+	list-style: none;
+	text-align: center;
+	line-height: 30px;
+	margin-right: 10px;
+	font-size: 11px;
+}
+.nav_list a{
+	display: inline-block;
+	color: rgb(93, 105, 129);
+	font-style: none;
+	width: 80px;
+	height: 30px;
+	border: 1px solid black;
+	border-color: rgb(159, 171, 186);
+	border-radius: 22px;
+	text-decoration: none;
+
+}
+.nav_list a:hover{
+	background-color: rgb(159, 171, 186);
+	color: white;
+}
+.icon-bar{
+	background-color: #0149a1;
+}
+.facebook, .twitter{
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	transition: 0.2s;
+}
+.facebook:hover, .twitter:hover{
+	transform: scale(1.2,1.2);
+}
+.macbook{
+	margin-top: 40px;
+}
+.macbook img{
+	width: 100%;
+}
+.heading{
+	font-size: 48px;
+	text-align: center;
+	color: #0149a1;
+	font-weight: 700;
+}
+.subheading{
+	text-align: center;
+	color: rgb(93, 105, 129);
+	margin-bottom: 30px;
+}
+.button{
+	display: block;
+	width: 150px;
+ 	height: 40px;
+ 	text-align: center;
+ 	line-height: 40px;
+ 	border-radius: 30px;
+ 	margin: auto;
+ 	font-weight: 700;
+}
+.red{
+	background-color: rgb(255, 45, 85);
+	color: white;
+}
+.button a{
+	color: white;
+	text-decoration: none;
+	display: inline-block;
+	width: 150px;
+ 	height: 40px;
+ }
+.service{
+	display: inline-block;
+	float: left;
+	text-align: center;
+	color: #7c8ca0;
+}
+.service h3{
+	margin-bottom: 10px;
+}
+.logo{
+	width: 80px;
+	height: 80px;
+}
+
+.our_services{
+	display: table;
+	content: "";
+	clear: both;
+}
+.creativity{
+	margin-top: 50px;
+	background-image: url("images/creativity_image.png");
+	height: 319px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-top: 120px;
+}
+.gradient{
+	background: radial-gradient(rgba(255,255,255,1),rgba(255,255,255,0.6),rgba(255,255,255,0));
+	padding: 50px;
+	width: 250px;
+	margin: auto;
+}
+.blue{
+	background-color: #0149a1;
+	z-index: 10px;
+}
+.how_we_work{
+	background-color: #0149a1;
+	color: white;
+	text-align: center;
+	padding: 30px 10px;
+}
+
+.image img{
+	margin-top: 50px;
+	width: 100%;
+}
+.content{
+	margin: 20px 0px;
+	text-align: left;
+}
+.white{
+	background-color: white;
+	margin-bottom: 50px;
+}
+.white a{
+	color: #0149a1;
+	font-weight: 700;
+}
+.how_we_work{
+	display: table;
+	content: "";
+	clear: both;
+}
+#carousel{
+	height: 450px;
+}
+.item{
+	margin: 80px 0px;
+	height: 300px;
+}
+.item img{
+	margin: auto;
+}
+.carousel-caption{
+	padding-bottom: 0px;
+	color: #7c8ca0;
+	text-shadow: none;
+	font-style: italic;
+}
+.carousel-indicators li{
+	border: 1px solid #7c8ca0;
+}
+.carousel-indicators .active{
+	background-color: #7c8ca0;
+}
+.carousel-control.right, .carousel-control.left{
+    background-image: -webkit-linear-gradient(left,white 0,white 100%); 
+    background-image: -o-linear-gradient(left,white 0,white 100%);
+    color: #7c8ca0;
+}
+.team{
+	background-color: #edeff1;
+	padding: 80px 0px;
+	text-align: center;
+}
+.team img{
+	width: 50%;
+}
+.members h3{
+	font-size: 20px;
+	font-weight: 700;
+	color: #5d6981;
+}
+.members{
+	margin-bottom: 20px;
+}
+#map{
+	width: 100%;
+	height: 300px;
+}
+.page_footer{
+	background-color: #0149a1;
+	padding: 60px 0px;
+	color: white;
+	line-height: 25px;
+	font-size: 12px;
+}
+.footer{
+	margin-bottom: 20px;
+}
+.center{
+	text-align: center;
+	line-height: initial;
+	margin-top: 30px;
+}
+.red a:hover{
+	background-color: white;
+	color: rgb(255, 45, 85);
+	border-radius: 30px;
+	border:1px solid rgb(255, 45, 85);
+}
+.white a:hover{
+	background-color: #0149a1;
+	border: 1px solid white;
+	color: white;
+	border-radius: 30px;
+}
+.blue a:hover{
+	background-color: white;
+	color: #0149a1;
+	border:1px solid #0149a1;
+	border-radius: 30px;
+}
+.gm-style-pbc{
+	display: none;
+}
+@media(max-width: 1080px){
+	.navigation{
+		width: 80%;
+	}
+}
+@media (max-width: 992px) {
+	.container{
+		width: 100%;
+	}
+	.nav_container{
+		width: 80%;
+	}
+	.macbook{
+		width: 80%;
+		margin: 30px auto;
+	}
+	.team img{
+		width: 50%;
+	}
+}
+@media (max-width: 768px){
+	.team img{
+		width: 30%;
+	}
+	.gradient{
+		background: transparent;
+	}
+}
